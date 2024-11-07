@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,500;1,400&family=Outfit:wght@100..900&family=Poppins:wght@200;400;600&family=Young+Serif&display=swap');
+
+
+:root{
+  --TEXT_GRADIENT_PURPLE: "linear-gradient(135deg,#cb5eee 0%,#4be1ec 100%)";
+  --TEXT_GRADIENT_GREEN: "linear-gradient(135deg,#d6ff7f 0%,#00b3cc 100%)";
+  --TEXT_GREY_NEUTRAL: "#6b6f76";
+  --TEXT_BLACK: "#1d2238";
+  --TEXT_WHITE: "#fff";
+
+  --BACKGROUND_GRADIENT_PINK:
+    "linear-gradient( 135deg, rgb(102,153,255) 0%, rgb(255,51,102) 100% ";
+
+  --BOX_SHADOW: "0 0 20px rgba(0, 0, 0, 0.04)";
+  --BOX_SHADOW_BLUE: " -3px 4px 0 rgb(102 153 255)";
+  --BOX_SHADOW_BUTTON: "0 10px 20px -10px #b664b0";
+  --linear: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  --linear-gradient:(135deg,#c06ed9 0%,#8bcfea 100%);
+}
+ 
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  
+} 
+
+.header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white; 
+  border: 1px solid black;
+  box-shadow: 20px 5px ;
+  background: linear-gradient(135deg,#c11fc1 0%,#9852ed 100%);
+
+}
+
+.logo h1{
+  color: white;
+  font-weight: 800;
+  font-family: "Poppins", serif;
+
+
+}
+
+.logo h2{
+  font-family: "Doto", sans-serif;
+  color: white;
+
+}
+.navbar a{
+  position:relative;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  padding: 5px;
+  color:white;
+  margin: 10px 5px;
+  
+
+}
+button{
+  color:white;
+  background: linear-gradient(135deg,#8534b8 20%,#ff3366 100%);
+  box-shadow: var(--BOX_SHADOW_BUTTON);
+  padding: 12px 20px;
+  border-radius: 999px;
+  border:none;
+  margin:10px 0;
+  font-size:16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  /* @media(max-width: 829px){
+    width:50%;
+    margin: 5px 10px 0 10px;
+} */
+}
+
+
+ 
+  
+  
+
+
+
+
+
+ 
